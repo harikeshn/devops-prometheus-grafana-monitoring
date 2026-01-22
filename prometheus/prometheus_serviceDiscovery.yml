@@ -1,0 +1,5 @@
+scrape_configs:
+  - job_name: "ec2-nodes"
+    ec2_sd_configs:
+      - region: YOUR_AWS_REGION
+        port: 9100
